@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "QuinchoScript_PersonalUse";
+  src: url("QuinchoScript_PersonalUse.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "genkai-mincho";
+  src: url("genkai-mincho.ttf") format("woff2");
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+div#wrap{
+  width: 600px;
+}
+img{
+  width: 100%;
+}
+
+font{
+  /* font-family: 'Quincho Script PERSONAL USE','源界明朝';
+  src: local(Gentium),
+  url(Gentium.woff); */
+  font-family: "QuinchoScript_PersonalUse", "genkai-mincho";
+}
+
+.font{
+  
+  /* font-family: 'Quincho Script PERSONAL USE','源界明朝'; */
+  font-family: "QuinchoScript_PersonalUse", "genkai-mincho";
+  font-size: 160px;
+  color: #000000;
+  transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  margin-top: 80px;
+  margin-left: 48px;
+}
+
+.font2{
+  
+  /* font-family: 'Quincho Script PERSONAL USE','源界明朝'; */
+  font-family: "QuinchoScript_PersonalUse", "genkai-mincho";
+  font-size: 100px;
+  color: #000;
+  transform: rotate(-deg);
+  -moz-transform: rotate(-deg);
+  -webkit-transform: rotate(-deg);
+  margin-top: px;
+}
+
+
+.font3{
+  
+  /* font-family: '源界明朝'; */
+  font-family: "genkai-mincho";
+  font-size: 150px;
+  color: #000000;
+  transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  margin-top: 10px;
+  margin-right: -200px;
+}
+
+.font4{
+  
+  /* font-family: 'Quincho Script PERSONAL USE','源界明朝'; */
+  font-family: "QuinchoScript_PersonalUse", "genkai-mincho";
+  font-size: 50px;
+  color: #e10004;
+  transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  margin-top: 0px;
+  margin-right: 200px;
+}
+
+.triangle{
+  margin-top: 100px;
+  width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 300.5px 600px 900px 0;
+   border-color: transparent #000000 transparent transparent;
+   transform: rotate(0deg);
+}
+
+.lucky{
+  margin-top: 900px;
+  margin-left: 100px;
+  font-size: 70px;
+  /* font-family: 'Quincho Script PERSONAL USE','源界明朝'; */
+  font-family: "QuinchoScript_PersonalUse", "genkai-mincho";
+  color: #e10004;
+  transform: translate(220px, 50px);
+
+}
+
+
+
+
+
+.lucky2{
+
+  margin-left: 100px;
+  font-size: 40px;
+  font-family: 'Quincho Script PERSONAL USE','源界明朝';
+  color: #000000;
+  transform: translate(-30px, 1550px);
+
+}
+
+
+.p1{
+  left: 100px;
+}
+
+.we{
+  font-size: 80px;
+  margin-right: -270px;
+  transform: translate(90px, -10px);
+  
+}
+
+.wf{
+  font-size: 140px;
+  margin-top: 60px;
+  margin-right: -270px;
+  transform: translate(70px, -60px);
+}
+
+.ww{
+  margin-top: 60px;
+  font-size: 80px;
+  margin-right: 200px;
+  transform: translate(240px, 120px);
+}
+
+.wwe{
+  font-size: 70px;
+  margin-right: -170px;
+  transform: translate(-50px, -20px);
+  
+}
+
+.wf{
+  font-size: 140px;
+  margin-top: 60px;
+  margin-right: -290px;
+  transform: translate(10px, -50px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gradient {
+  height: 1600px;
+  width: 600px;
+  /*margin-bottom: 30px;*/
+}
+
+.gradient01 {
+  background: linear-gradient(-25deg, #e10004 50%, #e10004 0);
+}
+
+.gradient02 {
+  background: linear-gradient(-25deg, #e10004 90%, #e10004 0);
+}
+
+.gradient03 {
+  background: linear-gradient(25deg, #e10004 10%, #e10004 0);
+}
+
+.gradient04 {
+  background: linear-gradient(50deg, rgb(0, 0, 0) 50%, #e10004 0);
+}
+
+.gradient05 {
+  background: linear-gradient(50deg, #e10004 30.8%, rgb(0, 0, 0) 0);
+}
+
+.gradient06 {
+  background: linear-gradient(-50deg, pink 50%, skyblue 0);
+}
+
+ .parent{
+    display: absolute;
+  }
+  .child{
+    width: 110%;
+    text-align: center
+  
+  }
+  .child img{
+    width: 60%;
+  
+  }
