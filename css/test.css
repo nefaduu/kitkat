@@ -1,3 +1,13 @@
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "QuinchoScript_PersonalUse";
   src: url("QuinchoScript_PersonalUse.ttf") format("woff2");
@@ -16,6 +26,8 @@ body {
 
 div#wrap{
   width: 600px;
+  height: 3000px;
+  overflow-x: hidden;
 }
 img{
   width: 100%;
